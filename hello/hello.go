@@ -24,6 +24,5 @@ func getCorrespondantPrefixByLanguage(language string) (prefix string) {
 	default:
 		prefix = helloEnglishPrefix
 	}
-
 	return
 }
